@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans+Condensed:300|Ubuntu');
+
+body{
+    background-image: url('../bg.jpg');
+    background-attachment: fixed;
+    background-position: 100%;
+    background-size: cover;
+    color: #FFF;
+}
+
+.app__navbar__top{}
+
+.app__navbar__top nav{
+    background-color: #ffc107;
+}
+.app__navbar__top nav img{
+    width: 30px;
+}
+
+.app__title{
+    font-family: 'Lobster', cursive;
+    color: #FFF;
+    font-weight: 800;
+    font-size: 2.3rem;
+}
+
+.app__footer{}
+.app__footer nav{
+    background-color: rgb(116, 92, 42);
+}
+
+.app__footer .form-control{
+    border-radius: 0px;
+    background: rgba(255, 255, 255, 0.13);
+    height: 44px;
+    color: #FFF;
+    border: 1px solid #ffc23b;
+    font-family: 'Ubuntu', sans-serif;
+}
+.app__footer .form-control:focus{
+    box-shadow: none;
+}
+.app__footer .btn{
+    border: 0px;
+    background: #ffc23b;
+    padding: 10px 25px;
+    border-radius: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.todo__container{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.todo__lists{
+    text-align: left;
+    background-color: #fff;
+    color: #333;
+    position: relative;
+}
+
+.todo__lists h3{
+    font-size: 20px;
+    padding: 15px;
+    background-color: #fff;
+    color: #333;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.delete__img{
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.delete__img img{
+    width: 18px;
+}
